@@ -27,7 +27,8 @@ class CalculatorTest {
     public void tearDown() {
         System.out.println("Test finished.");
     }
-    
+
+
 
     @Test
     void testAdd() {
@@ -46,7 +47,8 @@ class CalculatorTest {
                 Arguments.of(new int[]{1, 2}, 3),
                 Arguments.of(new int[]{2, 3}, 5),
                 Arguments.of(new int[]{1, 2, 3}, 6),
-                Arguments.of(new int[]{4, 5, 6, 7}, 22)
+                Arguments.of(new int[]{4, 5, 6, 7}, 22),
+                Arguments.of(new int[]{4, 5, 6, 7, 9}, 31)
         );
     }
 

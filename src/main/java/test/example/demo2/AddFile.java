@@ -6,5 +6,12 @@ public class AddFile {
     public String greet(String name) {
         return "Hello, " + name + "!";
     }
+
+    public int stash_multiply(int a, int i) {
+        for(int j=0;j<i-1;j++){
+            a+=a;
+        }
+        return a;
+    }
     
 }

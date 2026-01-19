@@ -23,6 +23,12 @@ class CalculatorTest {
         System.out.println("Starting a new test...");
     }
 
+    @AfterEach
+    public void tearDown() {
+        System.out.println("Test finished.");
+    }
+    
+
     @Test
     void testAdd() {
         assertEquals(5, calculator.add(2, 3));
